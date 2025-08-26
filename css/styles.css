@@ -1,14 +1,10 @@
-.header-bg-color {
-    background-color: #f9f9f9;
-}
-
 .body {
     background-color: #f9f9f9;
 }
 
-.iframe {
+.iframe-map {
   width: 100%;
-  height: 450%;
+  height: 450px;
   border: 0;
 }
 
