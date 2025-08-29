@@ -9,27 +9,20 @@
 }
 
 .footer {
-     /* Ruta de la imagen de fondo */
   background-image: url("../img/fondo.png"); 
-  
-  /* Evita que la imagen se repita */
   background-repeat: no-repeat;
-  
-  /* Centra la imagen en el footer */
   background-position: center;
-  
-  /* Asegura que la imagen cubra todo el espacio sin distorsionarse */
   background-size: cover;
 }
 
 .footer img {
-  width: 40px; /* Ancho de 50 píxeles */
-  height: auto; /* Mantén la proporción original de la imagen */
+  width: 40px; 
+  height: auto; 
 }
 
 .footer p {
-  font-size: 11px; /* O el tamaño que prefieras, por ejemplo, 12px */
-  margin-top: 5px; /* Esto añade un pequeño espacio entre el logo y el texto */
+  font-size: 11px; 
+  margin-top: 5px; 
 }
 
 .btn-whatsapp {
@@ -54,23 +47,18 @@
   opacity: 0.9;
 }
 
-
-
 .color-line-container {
-  display: flex; /* Esto alinea los elementos uno al lado del otro */
-  width: 100%; /* La línea ocupará todo el ancho disponible */
-  height: 20px; /* Puedes ajustar la altura (grosor) de la línea */
+  display: flex; 
+  width: 100%; 
+  height: 20px; 
 }
 
 .color-bar {
-  flex-grow: 1; /* Esto hace que cada barra ocupe una porción igual del espacio */
+  flex-grow: 1; 
 }
-
-/* Colores de las barras */
 .green {
   background-color: #0cda7a;
 }
-
 .red {
   background-color: #f53f3f;
 }
