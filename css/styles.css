@@ -22,6 +22,11 @@
   background-size: cover;
 }
 
+.footer img {
+  width: 40px; /* Ancho de 50 píxeles */
+  height: auto; /* Mantén la proporción original de la imagen */
+}
+
 .btn-whatsapp {
   position: fixed;
   bottom: 20px;
