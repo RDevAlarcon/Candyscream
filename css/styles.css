@@ -27,6 +27,11 @@
   height: auto; /* Mantén la proporción original de la imagen */
 }
 
+.footer p {
+  font-size: 11px; /* O el tamaño que prefieras, por ejemplo, 12px */
+  margin-top: 5px; /* Esto añade un pequeño espacio entre el logo y el texto */
+}
+
 .btn-whatsapp {
   position: fixed;
   bottom: 20px;
