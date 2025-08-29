@@ -9,7 +9,17 @@
 }
 
 .footer {
-    background-color: #f9f9f9;
+     /* Ruta de la imagen de fondo */
+  background-image: url("../img/fondo.png"); 
+  
+  /* Evita que la imagen se repita */
+  background-repeat: no-repeat;
+  
+  /* Centra la imagen en el footer */
+  background-position: center;
+  
+  /* Asegura que la imagen cubra todo el espacio sin distorsionarse */
+  background-size: cover;
 }
 
 .btn-whatsapp {
@@ -34,11 +44,23 @@
   opacity: 0.9;
 }
 
-.navbar {
-  border-bottom: 3mm solid #f11649; /* Rosado pastel */
-  
+
+
+.color-line-container {
+  display: flex; /* Esto alinea los elementos uno al lado del otro */
+  width: 100%; /* La línea ocupará todo el ancho disponible */
+  height: 20px; /* Puedes ajustar la altura (grosor) de la línea */
 }
 
+.color-bar {
+  flex-grow: 1; /* Esto hace que cada barra ocupe una porción igual del espacio */
+}
 
-  
+/* Colores de las barras */
+.green {
+  background-color: #0cda7a;
+}
 
+.red {
+  background-color: #f53f3f;
+}
