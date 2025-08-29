@@ -3,17 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Candys Cream</title>
+    <title>Candy's Cream | Heladería y Cafetería en Cerrillos, Santiago</title>
+    <meta name="description" content="Disfruta de los más cremosos helados artesanales y un café de especialidad en Candy's Cream. ¡El lugar perfecto para darte un gusto en Cerrillos!">
+    <meta name="keywords" content="heladería, cafetería, helados artesanales, café, Cerrillos, Santiago">
     <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "IceCreamShop",
+      "name": "Candy's Cream",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Peulla 7123",
+        "addressLocality": "Cerrillos",
+        "addressRegion": "Región Metropolitana",
+        "addressCountry": "CL"
+      },
+      "telephone": "+56966228534",
+      "image": "./img/logo.png",
+      "servesCuisine": "Helados",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "14:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "12:00",
+          "closes": "19:00"
+        }
+      ]
+    }
+    </script>
 </head>
 
-<body class="body">
-    <header >
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body>
+    <nav id="inicio" class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-    <img src="./img/Diseño sin título (1).png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    <img src="./img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       Candy's Cream
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,19 +63,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sabores</a>
+          <a class="nav-link" href="#sabores">Sabores</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Local</a>
+          <a class="nav-link" href="#local">Local</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-</header> 
+<main>
 <div class="color-line-container">
   <div class="color-bar green"></div>
   <div class="color-bar red"></div>
@@ -78,14 +119,16 @@
   
 </div>
 <div class="container-fluid">
+    <h1 class="visually-hidden">Candy's Cream: Heladería y Cafetería en Cerrillos</h1>
     <div class="row ">
-        <img src="./img/Heladeria & Cafeteria.png" class="img-fluid" alt="...">
+        <img src="./img/Heladeria & Cafeteria.png" class="img-fluid" alt="Banner principal de Candy's Cream: Heladería y Cafetería">
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid" id="sabores">
+    <h2 class="visually-hidden">Nuestros Sabores Artesanales</h2>
     <div class="row">
-    <img src="./img/Sabores.png" class="img-fluid" alt="">
+    <img src="./img/Sabores.png" class="img-fluid" alt="Variedad de sabores de helados">
     </div>
 </div>
 <div class="color-line-container">
@@ -130,20 +173,23 @@
   <div class="color-bar green"></div>
   
 </div>
-<div class="container-fluid">
-<img src="./img/banner.png" class="img-fluid" alt="Banner">
+
+<div class="container-fluid" id="local">
+<img src="./img/banner.png" class="img-fluid" alt="Banner de promociones">
 </div>
 
 <div class="container-fluid">
-        <div class="row">          
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.1945115328963!2d-70.72555862354666!3d-33.49631609986381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c353f6921205%3A0xe6c3efab63c759af!2sPeulla%207123%2C%209200153%20Cerrillos%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1755804054248!5m2!1ses-419!2scl" 
-                class="iframe-map"
-                title="Ubicación de nuestra heladería en Google Maps"
-                allowfullscreen="" 
-                loading="lazy"> 
-            </iframe>
-        </div>
+    <h2 class="visually-hidden">Encuéntranos</h2>
+    <div class="row">          
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.194511532949!2d-70.72555862432573!3d-33.49631609986243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c353f6921205%3A0xe6c3efab63c759af!2sPeulla%207123%2C%209200153%20Cerrillos%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1756502736828!5m2!1ses-419!2scl" 
+            class="iframe-map"
+            title="Ubicación de nuestra heladería en Google Maps"
+            allowfullscreen="" 
+            loading="lazy"> 
+        </iframe>
+    </div>
 </div>
+</main>
 <div class="color-line-container">
   <div class="color-bar green"></div>
   <div class="color-bar red"></div>
@@ -188,34 +234,48 @@
 </div>
 <footer class="footer container-fluid py-4"> 
   <div class="container">
-    <div class="row text-center">
-        <div class="col-6 col-md-3 mb-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="me-3">
-            <img src="./img/square-facebook-brands-solid-full.svg" alt="Facebook" >
-            <p class="text-capitalize" >facebook</p>
-            </a>
+    <div class="row">
+        <div class="col-12 col-md-6 text-center">
+            <h5>Contacto y Ubicación</h5>
+            <p>Peulla 7123, Cerrillos, Región Metropolitana</p>
+            <p>Teléfono: +56 9 6622 8534</p>
+            <h5>Horarios</h5>
+            <p>Lunes a Viernes: 14:00 - 19:00 hrs</p>
+            <p>Sabados, Domingos y Festivos: 12:00 - 19:00 hrs</p>
         </div>
-        <div class="col-6 col-md-3 mb-4">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="me-3">
-         <img src="./img/instagram-brands-solid-full.svg" alt="Instagram" >
-            <p class="text-capitalize" >instagram</p>
-            </a>
+        <div class="col-12 col-md-6">
+            <ul class="row text-center list-unstyled">
+                <li class="col-4">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/square-facebook-brands-solid-full.svg" alt="Visita nuestra página de Facebook" >
+                    <p class="text-capitalize" >Facebook</p>
+                    </a>
+                </li>
+                <li class="col-4">
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                 <img src="./img/instagram-brands-solid-full.svg" alt="Síguenos en Instagram" >
+                    <p class="text-capitalize" >Instagram</p>
+                    </a>
+                </li>
+                <li class="col-4">
+                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                <img src="./img/tiktok-brands-solid-full.svg" alt="Encuéntranos en TikTok" >
+                <p class="text-capitalize" >TikTok</p>
+                </a>
+            </li>
+            </ul>
         </div>
-        <div class="col-6 col-md-3 mb-4">
-        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
-        <img src="./img/tiktok-brands-solid-full.svg" alt="TikTok" >
-        <p class="text-capitalize" >tiktok</p>
-        </a>
-    </div>
     </div>
 </div>
 </footer>
 <a href="https://wa.me/56966228534?text=Hola%20quiero%20más%20información" 
    target="_blank"
    rel="noopener noreferrer"
-   class="btn-whatsapp">
-  <img src="./img/whatsapp-brands-solid-full.svg" width="30" height="30" alt="WhatsApp Logo">
+   class="btn-whatsapp"
+   title="Contáctanos por WhatsApp">
+  <img src="./img/whatsapp-brands-solid-full.svg" width="30" height="30" alt="Logo de WhatsApp">
 </a>
 <script src="./js/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+<script src="./js/logica.js" defer></script>
 </body>
 </html>
